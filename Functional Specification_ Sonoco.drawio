@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-05-24T20:28:45.732Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="PSOLEpv940UhNqsvJzw-" version="14.7.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-05-26T00:51:45.019Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="e5xVuOZUHJL3rJ2x9R7t" version="14.7.0" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="Especificação Funcional" style="shape=table;childLayout=tableLayout;rowLines=0;columnLines=0;startSize=40;html=1;whiteSpace=wrap;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;fillColor=#7EA6E0;" parent="1" vertex="1">
+        <mxCell id="3nuBFxr9cyL0pnOWT2aG-1" value="Fluxograma da Estrutura Lógica-Sequncial" style="shape=table;childLayout=tableLayout;rowLines=0;columnLines=0;startSize=40;html=1;whiteSpace=wrap;collapsible=0;recursiveResize=0;expand=0;fontStyle=1;fillColor=#7EA6E0;" parent="1" vertex="1">
           <mxGeometry x="10" y="10" width="830" height="2940" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-3" value="Sonoco" style="swimlane;horizontal=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;startSize=40;html=1;whiteSpace=wrap;collapsible=0;recursiveResize=0;expand=0;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
@@ -13,7 +13,7 @@
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-4" value="Produto em fase de inspeção" style="swimlane;connectable=0;startSize=40;html=1;whiteSpace=wrap;collapsible=0;recursiveResize=0;expand=0;" parent="3nuBFxr9cyL0pnOWT2aG-3" vertex="1">
           <mxGeometry x="40" width="180" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-4" source="3nuBFxr9cyL0pnOWT2aG-6" target="3nuBFxr9cyL0pnOWT2aG-7">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="3nuBFxr9cyL0pnOWT2aG-4" source="3nuBFxr9cyL0pnOWT2aG-6" target="3nuBFxr9cyL0pnOWT2aG-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="Leitura do RFID" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#FFE599;" parent="3nuBFxr9cyL0pnOWT2aG-4" vertex="1">
@@ -28,7 +28,7 @@
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="3nuBFxr9cyL0pnOWT2aG-4" source="3nuBFxr9cyL0pnOWT2aG-7" target="3nuBFxr9cyL0pnOWT2aG-17" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-15" value="" style="endArrow=classic;html=1;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-4">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-15" value="" style="endArrow=classic;html=1;" parent="3nuBFxr9cyL0pnOWT2aG-4" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="170" y="360" as="sourcePoint" />
             <mxPoint x="326" y="89" as="targetPoint" />
@@ -41,24 +41,24 @@
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-8" value="Produto em inspeção" style="swimlane;connectable=0;startSize=40;html=1;whiteSpace=wrap;collapsible=0;recursiveResize=0;expand=0;" parent="3nuBFxr9cyL0pnOWT2aG-3" vertex="1">
           <mxGeometry x="220" width="420" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-19" value="&lt;span&gt;Caso uma linha &#39;Pendente&#39; seja encontrada&lt;/span&gt;" style="shape=offPageConnector;whiteSpace=wrap;html=1;fillColor=#FF9999;size=0.25;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-8">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-19" value="&lt;span&gt;Caso uma linha &#39;Pendente&#39; seja encontrada&lt;/span&gt;" style="shape=offPageConnector;whiteSpace=wrap;html=1;fillColor=#FF9999;size=0.25;" parent="3nuBFxr9cyL0pnOWT2aG-8" vertex="1">
           <mxGeometry x="147.5" y="60" width="125" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-11" value="Produto inspecionado" style="swimlane;connectable=0;startSize=40;html=1;whiteSpace=wrap;collapsible=0;recursiveResize=0;expand=0;" parent="3nuBFxr9cyL0pnOWT2aG-3" vertex="1">
           <mxGeometry x="640" width="190" height="360" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-38" value="A linha atualizada é postada de volta no banco de dados local" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-11">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-38" value="A linha atualizada é postada de volta no banco de dados local" style="rounded=0;whiteSpace=wrap;html=1;" parent="3nuBFxr9cyL0pnOWT2aG-11" vertex="1">
           <mxGeometry x="21.869999999999997" y="250" width="146.25" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-156" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.8_point_star;strokeWidth=1;fillColor=#97D077;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-11">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-156" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.8_point_star;strokeWidth=1;fillColor=#97D077;" parent="3nuBFxr9cyL0pnOWT2aG-11" vertex="1">
           <mxGeometry x="45" y="80" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-11" source="QU1nf__ybb5k4i5HQK9e-38" target="QU1nf__ybb5k4i5HQK9e-156">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="3nuBFxr9cyL0pnOWT2aG-11" source="QU1nf__ybb5k4i5HQK9e-38" target="QU1nf__ybb5k4i5HQK9e-156" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="95" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-157" value="Fim" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-11">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-157" value="Fim" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="3nuBFxr9cyL0pnOWT2aG-11" vertex="1">
           <mxGeometry x="74.99000000000001" y="120" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-15" value="HoloLens" style="swimlane;horizontal=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;startSize=40;html=1;whiteSpace=wrap;collapsible=0;recursiveResize=0;expand=0;" parent="3nuBFxr9cyL0pnOWT2aG-1" vertex="1">
@@ -67,25 +67,25 @@
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-16" value="" style="swimlane;connectable=0;startSize=0;html=1;whiteSpace=wrap;collapsible=0;recursiveResize=0;expand=0;" parent="3nuBFxr9cyL0pnOWT2aG-15" vertex="1">
           <mxGeometry x="40" width="180" height="2540" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-16" source="QU1nf__ybb5k4i5HQK9e-1" target="QU1nf__ybb5k4i5HQK9e-9">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="3nuBFxr9cyL0pnOWT2aG-16" source="QU1nf__ybb5k4i5HQK9e-1" target="QU1nf__ybb5k4i5HQK9e-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-1" value="Aplicativo deve ser aberto&lt;br&gt;e o&amp;nbsp;botão &#39;Iniciar&#39; pressionado" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#FFE599;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-16">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-1" value="Aplicativo deve ser aberto&lt;br&gt;e o&amp;nbsp;botão &#39;Iniciar&#39; pressionado" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#FFE599;" parent="3nuBFxr9cyL0pnOWT2aG-16" vertex="1">
           <mxGeometry x="12.5" y="20" width="155" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-9" value="Começa a busca pela linha com status &#39;Pendente&#39; dentro do banco de dados da Sonoco" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#97D077;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-16">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-9" value="Começa a busca pela linha com status &#39;Pendente&#39; dentro do banco de dados da Sonoco" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#97D077;" parent="3nuBFxr9cyL0pnOWT2aG-16" vertex="1">
           <mxGeometry x="15" y="120" width="150" height="70" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-18" value="" style="swimlane;connectable=0;startSize=0;html=1;whiteSpace=wrap;collapsible=0;recursiveResize=0;expand=0;" parent="3nuBFxr9cyL0pnOWT2aG-15" vertex="1">
           <mxGeometry x="220" width="420" height="2540" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-18" source="QU1nf__ybb5k4i5HQK9e-26" target="QU1nf__ybb5k4i5HQK9e-36">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="3nuBFxr9cyL0pnOWT2aG-18" source="QU1nf__ybb5k4i5HQK9e-26" target="QU1nf__ybb5k4i5HQK9e-36" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-26" value="O aplicativo transforma os valores das colunas daquela linha em variáveis locais dentro de sua memória" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-18">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-26" value="O aplicativo transforma os valores das colunas daquela linha em variáveis locais dentro de sua memória" style="rounded=0;whiteSpace=wrap;html=1;" parent="3nuBFxr9cyL0pnOWT2aG-18" vertex="1">
           <mxGeometry x="115" y="30" width="190" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-18" source="QU1nf__ybb5k4i5HQK9e-36" target="QU1nf__ybb5k4i5HQK9e-44">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="3nuBFxr9cyL0pnOWT2aG-18" source="QU1nf__ybb5k4i5HQK9e-36" target="QU1nf__ybb5k4i5HQK9e-44" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="210" y="320" />
@@ -93,7 +93,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-18" source="QU1nf__ybb5k4i5HQK9e-36" target="QU1nf__ybb5k4i5HQK9e-45">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="3nuBFxr9cyL0pnOWT2aG-18" source="QU1nf__ybb5k4i5HQK9e-36" target="QU1nf__ybb5k4i5HQK9e-45" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="210" y="320" />
@@ -101,157 +101,157 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-48" value="Decisão automática, baseada na variável &#39;Tipo&#39;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="QU1nf__ybb5k4i5HQK9e-47">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-48" value="Decisão automática, baseada na variável &#39;Tipo&#39;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="QU1nf__ybb5k4i5HQK9e-47" vertex="1" connectable="0">
           <mxGeometry x="-0.5667" y="1" relative="1" as="geometry">
             <mxPoint x="-1" y="-12" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-36" value="&lt;span&gt;A coluna, agora uma variável local, &#39;Tipo&#39; determina qual inspeção deve ser requerida do operador - destrutiva ou visual - e suas respectivas etapas&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fillColor=#FF9999;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-18">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-36" value="&lt;span&gt;A coluna, agora uma variável local, &#39;Tipo&#39; determina qual inspeção deve ser requerida do operador - destrutiva ou visual - e suas respectivas etapas&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=1;fillColor=#FF9999;" parent="3nuBFxr9cyL0pnOWT2aG-18" vertex="1">
           <mxGeometry x="115" y="140" width="190" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-18" source="QU1nf__ybb5k4i5HQK9e-44" target="QU1nf__ybb5k4i5HQK9e-49">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="3nuBFxr9cyL0pnOWT2aG-18" source="QU1nf__ybb5k4i5HQK9e-44" target="QU1nf__ybb5k4i5HQK9e-49" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-44" value="Destrutiva" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9999;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-18">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-44" value="Destrutiva" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9999;" parent="3nuBFxr9cyL0pnOWT2aG-18" vertex="1">
           <mxGeometry x="40" y="360" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-18" source="QU1nf__ybb5k4i5HQK9e-45">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="3nuBFxr9cyL0pnOWT2aG-18" source="QU1nf__ybb5k4i5HQK9e-45" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="320" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-45" value="Visual" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9999;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-18">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-45" value="Visual" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FF9999;" parent="3nuBFxr9cyL0pnOWT2aG-18" vertex="1">
           <mxGeometry x="260" y="360" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-18" source="QU1nf__ybb5k4i5HQK9e-49" target="QU1nf__ybb5k4i5HQK9e-88">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="3nuBFxr9cyL0pnOWT2aG-18" source="QU1nf__ybb5k4i5HQK9e-49" target="QU1nf__ybb5k4i5HQK9e-88" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-49" value="Passo 1" style="swimlane;strokeWidth=1;fillColor=#FF9999;startSize=23;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-18">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-49" value="Passo 1" style="swimlane;strokeWidth=1;fillColor=#FF9999;startSize=23;" parent="3nuBFxr9cyL0pnOWT2aG-18" vertex="1">
           <mxGeometry x="10" y="430" width="180" height="230" as="geometry">
             <mxRectangle x="10" y="430" width="90" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-86" value="Verificar o lote impresso na caixa - se é o mesmo gravado na tag RFID.&lt;br&gt;&amp;amp;&lt;br&gt;Verificar se esta é a caixa correta para este produto." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="QU1nf__ybb5k4i5HQK9e-49">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-86" value="Verificar o lote impresso na caixa - se é o mesmo gravado na tag RFID.&lt;br&gt;&amp;amp;&lt;br&gt;Verificar se esta é a caixa correta para este produto." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="QU1nf__ybb5k4i5HQK9e-49" vertex="1">
           <mxGeometry x="10" y="30" width="160" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-99" value="O operador confirma ou não o sucesso da etapa e uma variável local é armazenada para esta confirmação" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#FF9999;" vertex="1" parent="QU1nf__ybb5k4i5HQK9e-49">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-99" value="O operador confirma ou não o sucesso da etapa e uma variável local é armazenada para esta confirmação" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#FF9999;" parent="QU1nf__ybb5k4i5HQK9e-49" vertex="1">
           <mxGeometry x="10" y="150" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-88" value="Passo 2" style="swimlane;strokeWidth=1;fillColor=#FF9999;startSize=23;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-18">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-88" value="Passo 2" style="swimlane;strokeWidth=1;fillColor=#FF9999;startSize=23;" parent="3nuBFxr9cyL0pnOWT2aG-18" vertex="1">
           <mxGeometry x="10" y="730" width="180" height="210" as="geometry">
             <mxRectangle x="10" y="430" width="90" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-89" value="Verificar se a tag RFID está corretamente associada com a etiqueta de segurança, e se a etiqueta de segurança está posicionada no local correto" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="QU1nf__ybb5k4i5HQK9e-88">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-89" value="Verificar se a tag RFID está corretamente associada com a etiqueta de segurança, e se a etiqueta de segurança está posicionada no local correto" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="QU1nf__ybb5k4i5HQK9e-88" vertex="1">
           <mxGeometry x="10" y="30" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-101" value="O operador confirma ou não o sucesso da etapa e uma variável local é armazenada para esta confirmação" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#FF9999;" vertex="1" parent="QU1nf__ybb5k4i5HQK9e-88">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-101" value="O operador confirma ou não o sucesso da etapa e uma variável local é armazenada para esta confirmação" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#FF9999;" parent="QU1nf__ybb5k4i5HQK9e-88" vertex="1">
           <mxGeometry x="10" y="130" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-18" source="QU1nf__ybb5k4i5HQK9e-94" target="QU1nf__ybb5k4i5HQK9e-126">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="3nuBFxr9cyL0pnOWT2aG-18" source="QU1nf__ybb5k4i5HQK9e-94" target="QU1nf__ybb5k4i5HQK9e-126" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-94" value="Passo 4" style="swimlane;strokeWidth=1;fillColor=#FF9999;startSize=23;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-18">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-94" value="Passo 4" style="swimlane;strokeWidth=1;fillColor=#FF9999;startSize=23;" parent="3nuBFxr9cyL0pnOWT2aG-18" vertex="1">
           <mxGeometry x="10" y="1260" width="180" height="210" as="geometry">
             <mxRectangle x="10" y="430" width="90" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-95" value="Verificar se o posicionamento do toner está correto. Verificar a condição dos end caps, holder e origami (se aplicável) e se o toner em si está sem nenhum dano." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="QU1nf__ybb5k4i5HQK9e-94">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-95" value="Verificar se o posicionamento do toner está correto. Verificar a condição dos end caps, holder e origami (se aplicável) e se o toner em si está sem nenhum dano." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="QU1nf__ybb5k4i5HQK9e-94" vertex="1">
           <mxGeometry x="10" y="30" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-125" value="O operador confirma ou não o sucesso da etapa e uma variável local é armazenada para esta confirmação" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#FF9999;" vertex="1" parent="QU1nf__ybb5k4i5HQK9e-94">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-125" value="O operador confirma ou não o sucesso da etapa e uma variável local é armazenada para esta confirmação" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#FF9999;" parent="QU1nf__ybb5k4i5HQK9e-94" vertex="1">
           <mxGeometry x="10" y="130" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-91" value="Passo 3" style="swimlane;strokeWidth=1;fillColor=#FF9999;startSize=23;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-18">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-91" value="Passo 3" style="swimlane;strokeWidth=1;fillColor=#FF9999;startSize=23;" parent="3nuBFxr9cyL0pnOWT2aG-18" vertex="1">
           <mxGeometry x="10" y="990" width="180" height="210" as="geometry">
             <mxRectangle x="10" y="430" width="90" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-92" value="Verificar se a caixa está em perfeito estado, com o fechamento das abas dentro dos limites e com o aspecto físico intacto, sem defeitos e danos." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="QU1nf__ybb5k4i5HQK9e-91">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-92" value="Verificar se a caixa está em perfeito estado, com o fechamento das abas dentro dos limites e com o aspecto físico intacto, sem defeitos e danos." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="QU1nf__ybb5k4i5HQK9e-91" vertex="1">
           <mxGeometry x="10" y="30" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-124" value="O operador confirma ou não o sucesso da etapa e uma variável local é armazenada para esta confirmação" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#FF9999;" vertex="1" parent="QU1nf__ybb5k4i5HQK9e-91">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-124" value="O operador confirma ou não o sucesso da etapa e uma variável local é armazenada para esta confirmação" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#FF9999;" parent="QU1nf__ybb5k4i5HQK9e-91" vertex="1">
           <mxGeometry x="10" y="130" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-18" source="QU1nf__ybb5k4i5HQK9e-88" target="QU1nf__ybb5k4i5HQK9e-91">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="3nuBFxr9cyL0pnOWT2aG-18" source="QU1nf__ybb5k4i5HQK9e-88" target="QU1nf__ybb5k4i5HQK9e-91" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="100" y="910" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-18" source="QU1nf__ybb5k4i5HQK9e-91" target="QU1nf__ybb5k4i5HQK9e-94">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="3nuBFxr9cyL0pnOWT2aG-18" source="QU1nf__ybb5k4i5HQK9e-91" target="QU1nf__ybb5k4i5HQK9e-94" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-18" source="QU1nf__ybb5k4i5HQK9e-126" target="QU1nf__ybb5k4i5HQK9e-130">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="3nuBFxr9cyL0pnOWT2aG-18" source="QU1nf__ybb5k4i5HQK9e-126" target="QU1nf__ybb5k4i5HQK9e-130" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-126" value="Passo 5" style="swimlane;strokeWidth=1;fillColor=#FF9999;startSize=23;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-18">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-126" value="Passo 5" style="swimlane;strokeWidth=1;fillColor=#FF9999;startSize=23;" parent="3nuBFxr9cyL0pnOWT2aG-18" vertex="1">
           <mxGeometry x="10" y="1520" width="180" height="210" as="geometry">
             <mxRectangle x="10" y="430" width="90" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-127" value="Verificar a localização e quantidade da cola aplicada, se está dentro dos parâmetros fornecidos pelo banco de dados." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="QU1nf__ybb5k4i5HQK9e-126">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-127" value="Verificar a localização e quantidade da cola aplicada, se está dentro dos parâmetros fornecidos pelo banco de dados." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="QU1nf__ybb5k4i5HQK9e-126" vertex="1">
           <mxGeometry x="10" y="30" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-128" value="O operador confirma ou não o sucesso da etapa e uma variável local é armazenada para esta confirmação" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#FF9999;" vertex="1" parent="QU1nf__ybb5k4i5HQK9e-126">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-128" value="O operador confirma ou não o sucesso da etapa e uma variável local é armazenada para esta confirmação" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#FF9999;" parent="QU1nf__ybb5k4i5HQK9e-126" vertex="1">
           <mxGeometry x="10" y="130" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-18" source="QU1nf__ybb5k4i5HQK9e-130" target="QU1nf__ybb5k4i5HQK9e-134">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="3nuBFxr9cyL0pnOWT2aG-18" source="QU1nf__ybb5k4i5HQK9e-130" target="QU1nf__ybb5k4i5HQK9e-134" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-130" value="Passo 6" style="swimlane;strokeWidth=1;fillColor=#FF9999;startSize=23;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-18">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-130" value="Passo 6" style="swimlane;strokeWidth=1;fillColor=#FF9999;startSize=23;" parent="3nuBFxr9cyL0pnOWT2aG-18" vertex="1">
           <mxGeometry x="10" y="1850" width="180" height="210" as="geometry">
             <mxRectangle x="10" y="430" width="90" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-131" value="Verificar se o guia de reciclagem está presente dentro da caixa" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="QU1nf__ybb5k4i5HQK9e-130">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-131" value="Verificar se o guia de reciclagem está presente dentro da caixa" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="QU1nf__ybb5k4i5HQK9e-130" vertex="1">
           <mxGeometry x="10" y="30" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-132" value="O operador confirma ou não o sucesso da etapa e uma variável local é armazenada para esta confirmação" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#FF9999;" vertex="1" parent="QU1nf__ybb5k4i5HQK9e-130">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-132" value="O operador confirma ou não o sucesso da etapa e uma variável local é armazenada para esta confirmação" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#FF9999;" parent="QU1nf__ybb5k4i5HQK9e-130" vertex="1">
           <mxGeometry x="10" y="130" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-18" source="QU1nf__ybb5k4i5HQK9e-134" target="QU1nf__ybb5k4i5HQK9e-149">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-150" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="3nuBFxr9cyL0pnOWT2aG-18" source="QU1nf__ybb5k4i5HQK9e-134" target="QU1nf__ybb5k4i5HQK9e-149" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-134" value="Passo 7" style="swimlane;strokeWidth=1;fillColor=#FF9999;startSize=23;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-18">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-134" value="Passo 7" style="swimlane;strokeWidth=1;fillColor=#FF9999;startSize=23;" parent="3nuBFxr9cyL0pnOWT2aG-18" vertex="1">
           <mxGeometry x="10" y="2120" width="180" height="180" as="geometry">
             <mxRectangle x="10" y="430" width="90" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-135" value="Verificar se há empedramento no toner" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="QU1nf__ybb5k4i5HQK9e-134">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-135" value="Verificar se há empedramento no toner" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="QU1nf__ybb5k4i5HQK9e-134" vertex="1">
           <mxGeometry x="10" y="30" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-136" value="O operador confirma ou não o sucesso da etapa e uma variável local é armazenada para esta confirmação" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#FF9999;" vertex="1" parent="QU1nf__ybb5k4i5HQK9e-134">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-136" value="O operador confirma ou não o sucesso da etapa e uma variável local é armazenada para esta confirmação" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#FF9999;" parent="QU1nf__ybb5k4i5HQK9e-134" vertex="1">
           <mxGeometry x="10" y="100" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-18" source="QU1nf__ybb5k4i5HQK9e-138" target="QU1nf__ybb5k4i5HQK9e-141">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="3nuBFxr9cyL0pnOWT2aG-18" source="QU1nf__ybb5k4i5HQK9e-138" target="QU1nf__ybb5k4i5HQK9e-141" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-138" value="Passo 1" style="swimlane;strokeWidth=1;fillColor=#FF9999;startSize=23;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-18">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-138" value="Passo 1" style="swimlane;strokeWidth=1;fillColor=#FF9999;startSize=23;" parent="3nuBFxr9cyL0pnOWT2aG-18" vertex="1">
           <mxGeometry x="230" y="430" width="180" height="230" as="geometry">
             <mxRectangle x="10" y="430" width="90" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-139" value="Verificar o lote impresso na caixa - se é o mesmo gravado na tag RFID.&lt;br&gt;&amp;amp;&lt;br&gt;Verificar se esta é a caixa correta para este produto." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="QU1nf__ybb5k4i5HQK9e-138">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-139" value="Verificar o lote impresso na caixa - se é o mesmo gravado na tag RFID.&lt;br&gt;&amp;amp;&lt;br&gt;Verificar se esta é a caixa correta para este produto." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="QU1nf__ybb5k4i5HQK9e-138" vertex="1">
           <mxGeometry x="10" y="30" width="160" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-140" value="O operador confirma ou não o sucesso da etapa e uma variável local é armazenada para esta confirmação" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#FF9999;" vertex="1" parent="QU1nf__ybb5k4i5HQK9e-138">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-140" value="O operador confirma ou não o sucesso da etapa e uma variável local é armazenada para esta confirmação" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#FF9999;" parent="QU1nf__ybb5k4i5HQK9e-138" vertex="1">
           <mxGeometry x="10" y="150" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-18" source="QU1nf__ybb5k4i5HQK9e-141" target="QU1nf__ybb5k4i5HQK9e-145">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-148" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="3nuBFxr9cyL0pnOWT2aG-18" source="QU1nf__ybb5k4i5HQK9e-141" target="QU1nf__ybb5k4i5HQK9e-145" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-141" value="Passo 2" style="swimlane;strokeWidth=1;fillColor=#FF9999;startSize=23;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-18">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-141" value="Passo 2" style="swimlane;strokeWidth=1;fillColor=#FF9999;startSize=23;" parent="3nuBFxr9cyL0pnOWT2aG-18" vertex="1">
           <mxGeometry x="230" y="730" width="180" height="210" as="geometry">
             <mxRectangle x="10" y="430" width="90" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-142" value="Verificar se a tag RFID está corretamente associada com a etiqueta de segurança, e se a etiqueta de segurança está posicionada no local correto" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="QU1nf__ybb5k4i5HQK9e-141">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-142" value="Verificar se a tag RFID está corretamente associada com a etiqueta de segurança, e se a etiqueta de segurança está posicionada no local correto" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="QU1nf__ybb5k4i5HQK9e-141" vertex="1">
           <mxGeometry x="10" y="30" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-143" value="O operador confirma ou não o sucesso da etapa e uma variável local é armazenada para esta confirmação" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#FF9999;" vertex="1" parent="QU1nf__ybb5k4i5HQK9e-141">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-143" value="O operador confirma ou não o sucesso da etapa e uma variável local é armazenada para esta confirmação" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#FF9999;" parent="QU1nf__ybb5k4i5HQK9e-141" vertex="1">
           <mxGeometry x="10" y="130" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-18" source="QU1nf__ybb5k4i5HQK9e-145" target="QU1nf__ybb5k4i5HQK9e-149">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="3nuBFxr9cyL0pnOWT2aG-18" source="QU1nf__ybb5k4i5HQK9e-145" target="QU1nf__ybb5k4i5HQK9e-149" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="320" y="2330" />
@@ -259,58 +259,86 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-145" value="Passo 3" style="swimlane;strokeWidth=1;fillColor=#FF9999;startSize=23;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-18">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-145" value="Passo 3" style="swimlane;strokeWidth=1;fillColor=#FF9999;startSize=23;" parent="3nuBFxr9cyL0pnOWT2aG-18" vertex="1">
           <mxGeometry x="230" y="990" width="180" height="210" as="geometry">
             <mxRectangle x="10" y="430" width="90" height="23" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-146" value="Verificar se a caixa está em perfeito estado, com o fechamento das abas dentro dos limites e com o aspecto físico intacto, sem defeitos e danos." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="QU1nf__ybb5k4i5HQK9e-145">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-146" value="Verificar se a caixa está em perfeito estado, com o fechamento das abas dentro dos limites e com o aspecto físico intacto, sem defeitos e danos." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="QU1nf__ybb5k4i5HQK9e-145" vertex="1">
           <mxGeometry x="10" y="30" width="160" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-147" value="O operador confirma ou não o sucesso da etapa e uma variável local é armazenada para esta confirmação" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#FF9999;" vertex="1" parent="QU1nf__ybb5k4i5HQK9e-145">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-147" value="O operador confirma ou não o sucesso da etapa e uma variável local é armazenada para esta confirmação" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#FF9999;" parent="QU1nf__ybb5k4i5HQK9e-145" vertex="1">
           <mxGeometry x="10" y="130" width="160" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-149" value="O aplicativo irá reunir todas as variáveis locais alocadas ao longo do processo e irá as concatenar em uma única linha" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#97D077;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-18">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-149" value="O aplicativo irá reunir todas as variáveis locais alocadas ao longo do processo e irá as concatenar em uma única linha" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#97D077;" parent="3nuBFxr9cyL0pnOWT2aG-18" vertex="1">
           <mxGeometry x="100" y="2360" width="190" height="80" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-23" value="" style="swimlane;connectable=0;startSize=0;html=1;whiteSpace=wrap;collapsible=0;recursiveResize=0;expand=0;" parent="3nuBFxr9cyL0pnOWT2aG-15" vertex="1">
           <mxGeometry x="640" width="190" height="2540" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-152" value="É feito um comando&lt;br&gt;&#39;POST&#39; para publicar essa linha" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="3nuBFxr9cyL0pnOWT2aG-23">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-152" value="É feito um comando&lt;br&gt;&#39;POST&#39; para publicar essa linha" style="rounded=0;whiteSpace=wrap;html=1;" parent="3nuBFxr9cyL0pnOWT2aG-23" vertex="1">
           <mxGeometry x="20" y="2365" width="150" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-15" source="QU1nf__ybb5k4i5HQK9e-149" target="QU1nf__ybb5k4i5HQK9e-152">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-153" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="3nuBFxr9cyL0pnOWT2aG-15" source="QU1nf__ybb5k4i5HQK9e-149" target="QU1nf__ybb5k4i5HQK9e-152" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-1" source="3nuBFxr9cyL0pnOWT2aG-17" target="QU1nf__ybb5k4i5HQK9e-1">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="3nuBFxr9cyL0pnOWT2aG-1" source="3nuBFxr9cyL0pnOWT2aG-17" target="QU1nf__ybb5k4i5HQK9e-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-1" source="QU1nf__ybb5k4i5HQK9e-19" target="QU1nf__ybb5k4i5HQK9e-26">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="3nuBFxr9cyL0pnOWT2aG-1" source="QU1nf__ybb5k4i5HQK9e-19" target="QU1nf__ybb5k4i5HQK9e-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-154" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="3nuBFxr9cyL0pnOWT2aG-1" source="QU1nf__ybb5k4i5HQK9e-152" target="QU1nf__ybb5k4i5HQK9e-38">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-154" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="3nuBFxr9cyL0pnOWT2aG-1" source="QU1nf__ybb5k4i5HQK9e-152" target="QU1nf__ybb5k4i5HQK9e-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-158" value="&lt;h1&gt;Legenda de cores&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;" vertex="1" parent="1">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-158" value="&lt;h1&gt;Legenda de cores&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;align=center;" parent="1" vertex="1">
           <mxGeometry x="285" y="2980" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-160" value="Vermelho" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#FF9999;align=center;" vertex="1" parent="1">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-160" value="Vermelho" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#FF9999;align=center;" parent="1" vertex="1">
           <mxGeometry x="285" y="3060" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-161" value="Amarelo" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#FFE599;align=center;" vertex="1" parent="1">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-161" value="Amarelo" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#FFE599;align=center;" parent="1" vertex="1">
           <mxGeometry x="285" y="3030" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-162" value="Representam ações manuais" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-162" value="Representam ações manuais" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="350" y="3030" width="250" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-163" value="Representam ações com condicionais atreladas" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-163" value="Representam ações com condicionais atreladas" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="350" y="3060" width="280" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-164" value="Verde" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#97D077;align=center;" vertex="1" parent="1">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-164" value="Verde" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#97D077;align=center;" parent="1" vertex="1">
           <mxGeometry x="285" y="3090" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="QU1nf__ybb5k4i5HQK9e-165" value="Representa o fim do processo" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="QU1nf__ybb5k4i5HQK9e-165" value="Representa o fim do processo" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="350" y="3090" width="280" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="vr6astYXCzdJYTTAs-Uz-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="1070" as="sourcePoint" />
+            <mxPoint x="330" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vr6astYXCzdJYTTAs-Uz-8" value="Passo 3" style="swimlane;strokeWidth=1;fillColor=#FF9999;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1400" width="180" height="210" as="geometry">
+            <mxRectangle x="10" y="430" width="90" height="23" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vr6astYXCzdJYTTAs-Uz-9" value="Verificar se a caixa está em perfeito estado, com o fechamento das abas dentro dos limites e com o aspecto físico intacto, sem defeitos e danos." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="vr6astYXCzdJYTTAs-Uz-8">
+          <mxGeometry x="10" y="30" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vr6astYXCzdJYTTAs-Uz-10" value="O operador confirma ou não o sucesso da etapa e uma variável local é armazenada para esta confirmação" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#FF9999;" vertex="1" parent="vr6astYXCzdJYTTAs-Uz-8">
+          <mxGeometry x="10" y="130" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vr6astYXCzdJYTTAs-Uz-11" value="Passo 3" style="swimlane;strokeWidth=1;fillColor=#FF9999;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1400" width="180" height="210" as="geometry">
+            <mxRectangle x="10" y="430" width="90" height="23" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vr6astYXCzdJYTTAs-Uz-12" value="Verificar se a caixa está em perfeito estado, com o fechamento das abas dentro dos limites e com o aspecto físico intacto, sem defeitos e danos." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="vr6astYXCzdJYTTAs-Uz-11">
+          <mxGeometry x="10" y="30" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="vr6astYXCzdJYTTAs-Uz-13" value="O operador confirma ou não o sucesso da etapa e uma variável local é armazenada para esta confirmação" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fillColor=#FF9999;" vertex="1" parent="vr6astYXCzdJYTTAs-Uz-11">
+          <mxGeometry x="10" y="130" width="160" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
